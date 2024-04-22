@@ -12,3 +12,4 @@ resource "google_compute_subnetwork" "network-with-private-secondary-ip-ranges" 
 resource "google_compute_network" "custom-test" {
   name                    = "test-network"
   auto_create_subnetworks = false
+}
